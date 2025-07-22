@@ -10,7 +10,43 @@ h1 {
   color: white;
 }
 header{
-  background-image: url("images/ponyo.jpg");
+  background-image: url("image/ponyo.jpg");
+}
+
+h2 {
+  color: white;
+  margin-top: 1em;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.2em;
+}
+
+h3 {
+  margin-top: 0.8em;
+  color: white;
+}
+
+/* 未完了タスクセクション */
+#incomplete-tasks {
+  margin-top: 20px;
+}
+
+/* 完了済みタスクセクション */
+#completed-tasks {
+  background-color: #f0f0f0;
+  color: #666666;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+/* タスクリスト */
+ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+}
+
+li {
+  margin-bottom: 0.5em;
 }
 
 h2 {
